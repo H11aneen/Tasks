@@ -1,38 +1,88 @@
-.App {
-  text-align: center;
+body{
+  background-color: black;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+.APP{
+  background-color:#fce4ec
+;
+  display:flex;
+  justify-content:center ;
+  align-items:center;
+  text-align:center;
+  height:100vh ;
+  direction:rtl;
   min-height: 100vh;
+  padding: 16px;
+  
+
+}
+.Home{
+  padding: 4%;
+  background-color: #17a4e5 !important
+  ;
+  margin: 30% ;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 20px;
+  
+}
+.Home h1{
+  margin-left: 40%;
 }
 
-.App-link {
-  color: #61dafb;
+.CEDbutton:hover{
+  background-color: aquamarine;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+
+.todoCard{
+  transition:all 0.2s !important;
+}
+.todoCard:hover{
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.CEDbutton{
+  transition:all 0.2s !important;
+
+}
+.CEDbutton:hover{
+  background-color: rgb(219, 220, 220) !important;
+  box-shadow: 0px 7px 7px rgb(0, 0, 0,0.4);
+}
+
+.Todo{
+  background-color: aqua;
+}
+
+.app-button {
+  width: 100%;
+  min-height: 48px;
+  font-size: 1rem;
+  border-radius: 12px;
+}
+
+/* الأزرار الافتراضية */
+.CEDbutton {
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+}
+
+/* الأيقونة */
+.CEDbutton svg {
+  font-size: 24px;
+}
+  
+
+@media (max-width: 600px){
+  .CEDbutton {
+    width: 34px;
+    height: 34px;
+    border-radius: 12px;
   }
-  to {
-    transform: rotate(360deg);
+
+  .CEDbutton svg {
+    font-size: 20px;
   }
 }

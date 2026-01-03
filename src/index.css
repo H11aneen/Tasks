@@ -11,3 +11,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.B{
+  padding: 15px 43px;
+  border-radius: 30px;
+  background-color: rgb(77, 22, 129);
+  color: aliceblue;
+  margin-top: 9px;
+
+}
